@@ -3,16 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Song Front End</title>
-    <script src="script.js"></script>
+    <title>Courses</title>
+    <script src="script.js"></script> 
 </head>
 <body>
-    <h1>Songs</h1>
-    <ul>
-        <li>Uptown Funk - Bruno Mars</li>
-        <li>Hello - Adelle</li>
-        <div id="addedSong"></div>
-    </ul>
-    
+<h1>Courses</h1>
+
+<form id="courseForm">
+    <input type="text" id="name" placeholder="Course Name" required>
+    <input type="text" id="instructor" placeholder="Instructor" required>
+    <button type="submit">Add Course</button>
+</form>
+
+<ul id="courseList"></ul>
 </body>
 </html>
